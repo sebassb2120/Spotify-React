@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+body{
+    height: 100hv;
+    width: 100%;
+    position: relative;
+}
+
+footer{
+    position:static;
+    padding: 2rem 8%;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/musicssb-c8514.appspot.com/o/11111111111111111111.jpg?alt=media&token=278cd5c1-70c8-4494-8a69-562ecec4c3c9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.logo{
+    height: 100%;
+    width: 200px;
+    border-radius: 20%;
+    margin-bottom: 1rem;
+}
+
+.social-icons-container, .footer-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.social-icon{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    border: 1px solid #f2f2f2;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/musicssb-c8514.appspot.com/o/icons8-facebook-96.png?alt=media&token=2a0e3e23-b587-4c01-bedc-e5e80f265f3b);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.social-icon:hover{
+    background-color: #121212;
+    filter: invert(1);
+    
+}
+
+.social-icon:nth-of-type(2){
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/musicssb-c8514.appspot.com/o/icons8-instagram-90.png?alt=media&token=ffa1b7fe-6ec6-4639-a203-dbe21b17368f);
+    
+}
+
+.social-icon:nth-of-type(3){
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/musicssb-c8514.appspot.com/o/icons8-linkedin-50.png?alt=media&token=5e67f6e2-9de1-4b94-a5e7-971724ac3268);
+}
+
+.social-icon:nth-of-type(4){
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/musicssb-c8514.appspot.com/o/icons8-twitter-90.png?alt=media&token=4445a859-c867-4f67-9d01-e879bcf42b34);
+}
+
+.footer-menu-container{
+    list-style-type: none;
+    color: #f2f2f2;
+    font-size: 18p;
+}
+
+.menu-item{
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.menu-item:hover{
+    opacity: 1;
+}
+
+.copyright{
+    color: #f2f2f2;
+    opacity: 0.7;
+    text-align: center;
+}

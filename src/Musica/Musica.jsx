@@ -1,7 +1,7 @@
 export function Shop(){
     return(
         <>
-        <h2>hola aca me podras escucgar...</h2>
+        <h2>hola aca me podras escuchar...</h2>
         </>
     )
 }

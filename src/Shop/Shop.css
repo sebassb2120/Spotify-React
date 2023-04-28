@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*INICIO DE LA CREACION DE LA BARRA DE IMAGENES*/
+.banner1{
+    margin: 0;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/musicssb-c8514.appspot.com/o/bannerTienda.png.jpg?alt=media&token=aa09e966-a8fa-4738-9d07-4331cffc3008);
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    color: #fefefe;
+}
+
+
+.container{
+    position: relative;
+    width: 300px;
+    margin: 100px auto 50 auto;
+    perspective: 1500px;
+}
+
+.carousel{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d ;
+    animation:rotate360 30s infinite forwards linear;
+}
+
+
+.image{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    background-size:cover;
+    box-shadow: inset 0 0 0 2000px rgba(61, 60, 60, 0.295);
+    display: flex;
+}
+
+span{
+    margin: auto;
+    font-size: 2rem;
+}
+
+@keyframes rotate360{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(-360deg)
+    }
+}
+
+
+.image:nth-child(1){
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/musicssb-c8514.appspot.com/o/Imagen%20de%20WhatsApp%202023-04-24%20a%20las%2013.12.01.jpg?alt=media&token=304be802-714d-4764-9c0f-50fdb6fda5af);
+    transform: rotateY(0deg) translateZ(430px);
+}
+
+.image:nth-child(2){
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/musicssb-c8514.appspot.com/o/binilo.jpg?alt=media&token=1ac94e7a-fcc5-456d-9af2-9cef5bbececa);
+    transform: rotateY(40deg) translateZ(430px);
+}
+
+.image:nth-child(3){
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/musicssb-c8514.appspot.com/o/camsia.jpg?alt=media&token=1fdbf4c6-674c-459c-a17a-84bfdc1cf444);
+    transform: rotateY(80deg) translateZ(430px);
+}
+
+.image:nth-child(4){
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/musicssb-c8514.appspot.com/o/gorra.jpg?alt=media&token=3651d1ca-3690-406a-957c-a52ea1d37513);
+    transform: rotateY(120deg) translateZ(430px);
+}
+
+.image:nth-child(5){
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/musicssb-c8514.appspot.com/o/medias.jpg?alt=media&token=0d3d5c5a-4ec7-42bb-81cd-0352627683b2);
+    transform: rotateY(160deg) translateZ(430px);
+}
+
+/*FIN DE LA CREACION DE LA BARRA DE IMAGENES*/
+
+/*INICIO LAS FICHAS DE PRODUCTO*/
+
+.conta{
+    background: url(https://firebasestorage.googleapis.com/v0/b/musicssb-c8514.appspot.com/o/FONDOOOOOOOOOOO.jpg?alt=media&token=b8b9cce5-36d5-4795-83c3-493c35771db1);
+
+}
+
+.titulo{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family:inherit;
+}
+
+.producto{
+    display: flex;
+    max-width: 1110px;
+}
+
+
+
+.card{
+  width: 100%;
+  margin:20px;
+  margin-left: -5%;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
+  vertical-align: top;
+  display: inline-block;
+  z-index: 1;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(3%);
+}
+
+.card h1{
+    font-weight: 100;
+    font-style: italic;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight:bolder;
+
+}
+
+.card img{
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+    position:relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, 0%);
+
+}
+
+.card .contenido{
+    padding: 15px;
+    text-align: center;
+}
+
+.card .contenido p{
+    line-height: 1.5;
+    color: black;
+}
+
+.card .contenido h6{
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: green;
+}
+
+
+
+
+

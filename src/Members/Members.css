@@ -1,5 +1,5 @@
 .fondo{
-    background-image:url(https://firebasestorage.googleapis.com/v0/b/musicssb-c8514.appspot.com/o/desktop-wallpaper-afterlife-techno-iphone-thumbnail.jpg?alt=media&token=9305b90b-8aa2-4cb1-b8f5-a3709ff47844);
+    background-image:url(https://firebasestorage.googleapis.com/v0/b/musicssb-c8514.appspot.com/o/fondo222222.jpg?alt=media&token=ede3257e-b1aa-41f4-b300-4a7efdd3ca0e);
     background-attachment: fixed;
     position:relative;
     z-index: 1;
@@ -15,4 +15,10 @@
     left: 0;
     opacity: 0.2;
     z-index: -1;
+}
+
+.container1{
+    margin-bottom: 0;
+    margin-inline-end: 30px;
+    margin-inline-start: 30px;
 }

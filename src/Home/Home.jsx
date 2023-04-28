@@ -1,4 +1,5 @@
 import { History } from "../History/History"
+import { Footer } from "../Footer/Footer"
 import { Members } from "../Members/Members"
 import './Home.css'
 export function Home(){
@@ -12,6 +13,8 @@ export function Home(){
             <section>
                 <History></History>
             </section>
+
+            
         </>
     )
 }
