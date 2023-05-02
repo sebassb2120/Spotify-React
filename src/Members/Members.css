@@ -22,3 +22,13 @@
     margin-inline-end: 30px;
     margin-inline-start: 30px;
 }
+
+.fondo{
+    margin-block-end: 10px;
+}
+
+h3{
+    text-align: center;
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.705);
+}

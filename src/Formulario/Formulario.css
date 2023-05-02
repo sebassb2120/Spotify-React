@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.9rem;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/musicssb-c8514.appspot.com/o/33.jpg?alt=media&token=e996a029-f9be-4cde-9d58-026ba972fb9f);
+    background-attachment: fixed ;
+    background-size: cover;
+}
+
+.form{
+    width: 50%;
+    min-width: 300px;
+    background: rgba(0, 0, 0, 0.76);
+    margin: auto;
+    margin-top: 100px;
+    margin-block-end: 100px;
+    padding: 60px;
+    color: rgb(92, 164, 223);
+    border-radius: 40px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(92, 164, 223);
+    padding-bottom: 26px;
+    font-size: 40px;
+
+}
+
+.header span{
+    color: #fff;
+
+}
+
+.form_input{
+    width: 100%;
+    height: 55px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgba(68, 129, 209, 0.932);
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.form_text{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    outline: none;
+    border: none;
+    border-bottom: 2px;
+    
+}
+
+.form_text::placeholder{
+    font-size: 1.4rem;
+}
+
+.form_label{
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 100%;
+
+}
+
+.enviar{
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    outline: none;
+    border: none;
+    background: rgb(0, 119, 255);
+    color: #fff;
+    font-size: 1.6rem;
+    margin: 20px 0  20px 0;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.enviar:hover{
+    background: rgba(0, 119, 255, 0.438);
+    
+}
+
+
+
+
+
+
+
+
+
+
+

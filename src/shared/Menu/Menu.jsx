@@ -42,6 +42,12 @@ export function Menu() {
                     Registrate
                   </a>
                 </li>
+
+                <li className="nav-item">
+                  <a className="nav-link" href="Formulario">
+                    Formulario
+                  </a>
+                </li>
                 <li className="nav-item">
                   <a className="nav-link Musica">Music</a>
                 </li>

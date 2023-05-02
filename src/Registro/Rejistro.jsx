@@ -5,7 +5,7 @@ export function Registro(){
         <div className="contenedor">
             <div className="card2">
                 <div className="inputbox">
-                    <h3>SING UP</h3>
+                    <h3 className="m-5">SING UP</h3>
                     <div className="inputbox"></div>
                     <input type="text" required="required" />
                     <span>Username</span>
@@ -17,8 +17,11 @@ export function Registro(){
                     <span>Password</span>
                 </div>
 
+
                 <button className="boton">Enter</button>
+                <button className="boton21"><a href="../Formulario/Formulario"></a>Realiza el Formulario</button>
             </div>
+
         </div>
       
         </>
