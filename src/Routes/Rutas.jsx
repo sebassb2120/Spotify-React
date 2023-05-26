@@ -7,9 +7,8 @@ import { Shop } from "../Shop/Shop"
 import { Registro } from "../Registro/Rejistro"
 import { Footer } from "../Footer/Footer"
 import { Formulario } from "../Formulario/Formulario"
-
-//import {Musica} from "../Musica/Musica"
-
+import { Hook} from "../Hook/Hook"
+import {Musica} from "../Musica/Musica"
 
 export function Rutas(){
     return(
@@ -21,7 +20,8 @@ export function Rutas(){
                <Route path="/Shop" element={<Shop />} />
                <Route path="/Registro" element={<Registro />} />
                <Route path="/Formulario" element={<Formulario />} />
-               
+               <Route path="/Hook" element={<Hook />} />               
+               <Route path="/Musica" element={<Musica />} />               
         </Routes>
         <Footer/>
     

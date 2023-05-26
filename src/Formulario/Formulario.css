@@ -5,15 +5,22 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-html{
+/*html{
     font-size: 62.5%;
-}
+}*/
 
-body{
+/*body{
     font-size: 1.9rem;
     background-image: url(https://firebasestorage.googleapis.com/v0/b/musicssb-c8514.appspot.com/o/33.jpg?alt=media&token=e996a029-f9be-4cde-9d58-026ba972fb9f);
     background-attachment: fixed ;
     background-size: cover;
+}*/
+
+.containers{
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/musicssb-c8514.appspot.com/o/33.jpg?alt=media&token=e996a029-f9be-4cde-9d58-026ba972fb9f);
+    background-attachment: fixed ;
+    background-size: cover;
+
 }
 
 .form{

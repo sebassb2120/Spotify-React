@@ -41,6 +41,16 @@ export function Members() {
 
   ]
 
+  function firulkais(evento){
+    (evento.target.classList.add("blancoynegro"))
+    
+  }
+
+  function otroevento(evento){
+    (evento.target.classList.remove("blancoynegro"))
+
+  }
+
 
   return (
     <>
@@ -53,7 +63,7 @@ export function Members() {
                   <div className="container1">
                     <div className="row">
                       <div className="col-12 col-md-6">
-                        <img src={integrante.foto} alt="" width="500" height="500"  className="mt-5"/>
+                        <img src={integrante.foto} alt="" width="500" height="500"  className="mt-5" onMouseOver={firulkais} onMouseLeave={otroevento}/>
                       </div>
           
                       <div className="col-12 col-md-6 mt-5">

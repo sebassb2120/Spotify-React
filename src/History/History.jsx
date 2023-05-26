@@ -8,7 +8,7 @@ export function History(){
                         <h2 className="text-center mt-5">AFTER LIFE</h2>
                         
                         <div className='col-12 col-md-6'>
-                            <img src="https://firebasestorage.googleapis.com/v0/b/musicssb-c8514.appspot.com/o/337923188_768304318188733_6894399591457556438_n.jpg?alt=media&token=447c47bf-4e74-44b1-872e-7a547a15b31c" alt="" className="rounded mx-auto d-block" width="500" height="500"/>
+                            <img src="https://firebasestorage.googleapis.com/v0/b/musicssb-c8514.appspot.com/o/337923188_768304318188733_6894399591457556438_n.jpg?alt=media&token=e2ea0399-178e-4685-8f66-9e55dc9ceb59" alt="" className="rounded mx-auto d-block" width="500" height="500"/>
                             <br />
                         </div>
                         <div className="col-12 col-md-6 mt-5">
@@ -52,7 +52,7 @@ export function History(){
                             
                             <div className="col-12 col-md-6">
 
-                                <img src="https://firebasestorage.googleapis.com/v0/b/musicssb-c8514.appspot.com/o/djsAfterlife.png?alt=media&token=f6d74701-f198-42ca-bf21-051df904d4bb" alt=""  className="rounded mx-auto d-block" width="450" height="350"/>    
+                                <img src="https://firebasestorage.googleapis.com/v0/b/musicssb-c8514.appspot.com/o/Tiendafondo.jpg?alt=media&token=4296cabf-b855-4d2d-b216-031bd74c7802" alt=""  className="rounded mx-auto d-block" width="450" height="350"/>    
 
                             </div> 
                     </div>

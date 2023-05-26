@@ -48,8 +48,17 @@ export function Menu() {
                     Formulario
                   </a>
                 </li>
+
                 <li className="nav-item">
-                  <a className="nav-link Musica">Music</a>
+                  <a className="nav-link" href="Hook">
+                    Hook
+                  </a>
+                </li>
+
+                <li className="nav-item">
+                  <a className="nav-link" href="Musica">
+                    Musica
+                  </a>
                 </li>
               </ul>
             </div>
